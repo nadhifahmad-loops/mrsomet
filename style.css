@@ -444,5 +444,8 @@ hr{
         flex-basis: 100%;
         font-size: 13px;
     }
+    .social-media{
+        margin-top: 0rem;
+    }
 }
 /* footer */
