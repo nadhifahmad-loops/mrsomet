@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr.Somet</title>
+    <link rel="icon" href="images/fav.jpg" type="image/jpg" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script>
+        window.onload = function(){
+           document.getElementById('loader').style.display="none";
+           document.getElementById('content').style.display="block";
+        };
+    </script>
+
+    <style>
+        #content{
+            display: none;
+        }
+        #loader{
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #loader img{
+            width: 250px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+<div id="loader">
+    <img src="images/giphy.webp" alt="loading...">
+</div>
+    <div id="content">
+
+
+
+    <section id="banner">
+        <img src="images/logo.png" alt="logo" class="logo">
+        <div class="banner-text">
+            <h1>Hair Studio</h1>
+            <p>Ubah Rambutmu Untuk Mengubah Penampilanmu</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Find Out</a>
+                <a href="#"><span></span>Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="navigation">
+        <nav>
+            <ul>
+                <a href="#"> <li>HOME</li></a>
+                <a href="#feature"> <li>FEATURES</li></a>
+                <a href="#service"> <li>SERVICE</li></a>
+                <a href="#feedback"><li>FEEDBACK</li></a>
+                <a href="#footer"><li>CONTACT</li></a>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menubtn">
+        <img src="images/menu.png" alt="hamburger" id="menu">
+    </div>
+
+    <section id="feature">
+        <div class="tittle-text">
+            <p>FEATURES</p>
+            <h1>Why Choose Us ?</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>Experience Staff</h1>
+                <div class="features-desc">
+                    <div class="features-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div class="features-text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, quidem!</p>
+                    </div>
+                </div>
+
+                <h1>Pre Booking Online</h1>
+                <div class="features-desc">
+                    <div class="features-icon">
+                        <i class="fa-solid fa-square-check"></i>
+                    </div>
+                    <div class="features-text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, quidem!</p>
+                    </div>
+                </div>
+
+                <h1>Affordable Price</h1>
+                <div class="features-desc">
+                    <div class="features-icon">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                    <div class="features-text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, quidem!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="features-img">
+                <img src="images/barber-man.jpg" alt="barberman">
+            </div>
+        </div>
+    </section>
+    <section id="service">
+        <div class="tittle-text">
+            <p>SERVICES</p>
+            <h1>We Provides Better</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-services">
+                <img src="images/pic-1.jpg" alt="pictures">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Styling</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae commodi dolorem molestias porro sequi est.</p>
+                </div>
+            </div>
+
+            <div class="single-services">
+                <img src="images/pic-2.jpg" alt="pictures">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Styling</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae commodi dolorem molestias porro sequi est.</p>
+                </div>
+            </div>
+
+            <div class="single-services">
+                <img src="images/pic-3.jpg" alt="pictures">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Styling</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae commodi dolorem molestias porro sequi est.</p>
+                </div>
+            </div>
+
+            <div class="single-services">
+                <img src="images/pic-4.jpg" alt="pictures">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Hair Styling</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae commodi dolorem molestias porro sequi est.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <div class="tittle-text">
+            <p>FEEDBACK</p>
+            <h1>What Client Says</h1>
+        </div>
+
+        <div class="feedback-row">
+            <div class="feedback-col">
+                <div class="user">
+                    <img src="images/img-1.jpg" alt="user">
+                    <div class="user-info">
+                        <h4>Cyber Warriors <i class="fa-brands fa-x-twitter"></i></h4>
+                        <small>@cyberwarriors</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores quos dolores reprehenderit deserunt, enim nesciunt. Ad quia itaque voluptatibus nostrum?</p>
+            </div>
+
+            <div class="feedback-col">
+                <div class="user">
+                    <img src="images/img-2.jpg" alt="user">
+                    <div class="user-info">
+                        <h4>Anita <i class="fa-brands fa-x-twitter"></i></h4>
+                        <small>@anita</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores quos dolores reprehenderit deserunt, enim nesciunt.</p>
+            </div>
+
+            <div class="feedback-col">
+                <div class="user">
+                    <img src="images/img-3.jpg" alt="user">
+                    <div class="user-info">
+                        <h4>Luke <i class="fa-brands fa-x-twitter"></i></h4>
+                        <small>@luke</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores quos dolores reprehenderit deserunt, enim nesciunt. Ad quia itaque voluptatibus nostrum?</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <img src="images/footer-img.png" alt="footer">
+        <div class="tittle-text">
+            <p>CONTACT</p>
+            <h1>Visit Our Shop Today</h1>
+        </div>
+
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <p><i class="fa-regular fa-clock"></i>Setiap Hari - 18.00 sampai 00.00</p>
+            </div>
+            <div class="footer-right">
+                <h1>Get In Touch</h1>
+                <p><a href="https://maps.app.goo.gl/m1bBSPbGsYgRRXj78" target="_blank" title="Lihat lokasi toko kami" rel="noopener noreferrer">Sidodadi no.069, Sidoarjo, Jawa Timur</a><i class="fa-solid fa-location-dot"></i></p>
+                <p>@mrsomet<i class="fa-solid fa-paper-plane"></i></p>
+                <p><a href="https://wa.me/+6281913301339" target="_blank" title="Chat kami melalui WhatsApp" rel="noopener noreferrer">+62 819-1330-1339</a><i class="fa-solid fa-phone"></i></p>
+            </div>
+        </div>
+
+        <div class="social-media">
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>   
+        <a href=""><i class="fa-brands fa-instagram"></i></a>   
+        <a href=""><i class="fa-brands fa-tiktok"></i></a>   
+        <p>Copyright © 2024 Fazcode. All Right Reserved.</p>
+        </div>
+    </section>
+
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/d6615bc0c2.js" crossorigin="anonymous"></script>
+</html>
